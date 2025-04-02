@@ -943,3 +943,344 @@ a {
   content: url(../img/pricing-check.svg);
   left: -26px;
 }
+
+/* review */
+.review {
+  margin-top: 53px;
+}
+
+.review-img {
+  position: relative;
+  margin-right: 115px;
+}
+.review-img::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 274px;
+  height: 350px;
+  border-radius: 137px;
+  background: #ffda54;
+  bottom: 0;
+}
+.review-avt {
+  display: block;
+  position: relative;
+  width: 274px;
+  height: 427px;
+  border-radius: 137px;
+  /* z-index: 1; */
+}
+.review-inner {
+  display: flex;
+  position: relative;
+}
+.review-inner::before,
+.review-inner::after {
+  box-sizing: border-box;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  top: 255px;
+}
+.review-inner::before {
+  content: url(../img/review1.svg);
+  border: 1px solid #ff5b2e99;
+  left: -98px;
+}
+
+.review-inner::after {
+  content: url(../img/review2.svg);
+  background-color: #ff5d31;
+  right: -98px;
+}
+.review-desc {
+  width: 553px;
+  color: #000;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.55556; /* 155.556% */
+  margin-top: 24px;
+}
+.review-name {
+  position: relative;
+  margin-top: 34px;
+  color: #282828;
+  font-family: Sora, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1; /* 100% */
+  margin-left: 28px;
+}
+.review-name::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 20px;
+  height: 2px;
+  background: #000;
+  border-radius: 2px;
+  top: 8px;
+  left: -28px;
+}
+
+.review-inner {
+  margin: 0 88px;
+}
+.review-title {
+  margin-top: 113px;
+}
+
+.review-move {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  width: 72px;
+  height: 8px;
+  margin: auto;
+  margin-top: 56px;
+}
+.review-dot:first-child {
+  width: 24px;
+  height: 8px;
+  background-color: #ff5d31;
+  border-radius: 8px;
+}
+.review-dot + .review-dot {
+  width: 8px;
+  height: 8px;
+  border: 1px solid #ff5d31;
+  border-radius: 8px;
+}
+
+/* blog */
+.blog {
+  padding: 130px 0;
+}
+
+.blog-top {
+  display: flex;
+  align-items: center;
+}
+.blog-desc {
+  width: 350px;
+  color: #656689;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.875; /* 187.5% */
+}
+.blog-more {
+  color: #ff5b2e;
+  text-align: center;
+  margin-top: 24px;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 1; /* 100% */
+}
+.blog-action {
+  margin-left: 512px;
+}
+
+.blog-list {
+  margin-top: 54px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blog-info {
+  width: 358px;
+  height: 362px;
+  border-radius: 24px;
+  background: #90ccff;
+  position: relative;
+}
+.blog-time {
+  color: #fff;
+  position: absolute;
+  top: 24px;
+  left: 36px;
+  font-family: Sora, sans-serif;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.21429; /* 121.429% */
+}
+.blog-img {
+  position: absolute;
+  width: 322px;
+  height: 296px;
+  right: 0;
+  bottom: 0;
+}
+.blog-item:nth-child(2) .blog-info {
+  background: #ff997e;
+}
+.blog-item:nth-child(3) .blog-info {
+  border-radius: 24px;
+  background: #5bd6e2;
+}
+.blog-item-title {
+  color: #000958;
+  font-family: Sora, sans-serif;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 1.54545; /* 154.545% */
+  margin-top: 28px;
+}
+.blog-item:nth-child(1) .blog-item-title {
+  width: 338px;
+}
+.blog-item:nth-child(2) .blog-item-title {
+  width: 340px;
+}
+.blog-item:nth-child(3) .blog-item-title {
+  width: 325px;
+}
+.blog-item-desc {
+  width: 358px;
+  color: #656689;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.71429; /* 171.429% */
+  margin-top: 16px;
+}
+.blog-time:nth-child(1) .blog-item-desc {
+  width: 351px;
+}
+
+/* footer */
+.footer {
+  background: linear-gradient(to right, #fff6ed 42%, #fff 42%);
+  margin-top: 52px;
+  padding: 52px 0 114px;
+}
+.footer--inner {
+  display: flex;
+}
+.footer-left {
+  margin-top: 52px;
+  width: 43%;
+  /* background: #fff6ed; */
+}
+.footer-search {
+  margin-top: 35px;
+  position: relative;
+  width: 268px;
+}
+
+.input-search {
+  width: 100%;
+  height: 46px;
+  border-radius: 23px;
+  border: 1px solid rgba(255, 91, 46, 0.25);
+  /* opacity: 0.6; */
+  background: #fff;
+  padding: 0 50px 0 22px;
+  caret-color: #ff5d31;
+  color: #313146;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.input-search::placeholder {
+  color: #656689;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.16667; /* 116.667% */
+  opacity: 0.8;
+}
+.input-search:hover::placeholder {
+  color: #ff5d31;
+}
+.input-search:focus {
+  outline: none;
+  border: 1px solid rgba(255, 91, 46, 0.8);
+}
+
+.btn-search {
+  position: absolute;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ff5b2e;
+  top: 0;
+  right: 0;
+  box-shadow: rgba(211, 85, 6, 0.25) 0px 54px 55px,
+    rgba(211, 85, 6, 0.25) 0px -12px 30px, rgba(211, 85, 6, 0.25) 0px 4px 6px,
+    rgba(211, 85, 6, 0.25) 0px 12px 13px, rgba(211, 85, 6, 0.25) 0px -3px 5px;
+}
+.footer-follow {
+  margin-top: 68px;
+  color: #000958;
+  font-family: Sora, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.1111; /* 111.111% */
+}
+.footer-media {
+  display: flex;
+  margin-top: 16px;
+  column-gap: 16px;
+}
+.footer-media-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.footer--right {
+  position: relative;
+  margin-left: 129px;
+}
+.footer-info-list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 58px;
+  column-gap: 74px;
+}
+.info-title {
+  color: #000958;
+  font-family: Sora, sans-serif;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.1111; /* 111.111% */
+}
+.info-item-list {
+  margin-top: 14px;
+  display: inline-block;
+}
+.info-item-item {
+  color: #656689;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2; /* 200% */
+}
+
+.end {
+  color: #656689;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.16667; /* 116.667% */
+  opacity: 0.5;
+  position: absolute;
+  bottom: -52px;
+  left: -108px;
+}
